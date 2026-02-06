@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>My Journey — Skills</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="max.html">My Journey</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="max.html">Home</a>
+        <a href="childhood.html">Childhood</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="aspirations.html">Aspirations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="themeToggle4" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Skills and Talents</h1>
+
+    <section class="skill-grid">
+      <div class="skill-card">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript; responsive design and accessible interfaces.</p>
+        <div class="meter"><span style="width:85%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Communication</h3>
+        <p>Public speaking, writing, and mentoring.</p>
+        <div class="meter"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Creative Problem Solving</h3>
+        <p>Design thinking, prototyping, and iterative testing.</p>
+        <div class="meter"><span style="width:75%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Hobbies</h3>
+        <p>Photography; woodworking; community theatre.</p>
+        <div class="meter"><span style="width:60%"></span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Showcase</h2>
+      <p>Click the buttons to reveal short project descriptions.</p>
+      <div class="showcase-controls">
+        <button class="show-btn" data-target="p1">Community Website</button>
+        <button class="show-btn" data-target="p2">Tutoring Program</button>
+        <button class="show-btn" data-target="p3">Local Play Production</button>
+      </div>
+      <div id="p1" class="project hidden">
+        <h3>Community Website</h3>
+        <p>Built a responsive site for a local group to share events and resources; included event forms and accessibility improvements.</p>
+      </div>
+      <div id="p2" class="project hidden">
+        <h3>Tutoring Program</h3>
+        <p>Organized weekly sessions, created lesson plans, and tracked progress with simple spreadsheets and feedback forms.</p>
+      </div>
+      <div id="p3" class="project hidden">
+        <h3>Local Play Production</h3>
+        <p>Directed a small community play, coordinating rehearsals, set design, and promotion.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="index.html">Back to Home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
